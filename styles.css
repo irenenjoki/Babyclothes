@@ -1,80 +1,81 @@
-a:hover {
-    background-color: rgb(1, 15, 17);
-  }
-  b:hover{
-    color: red; 
-}
-a:hover{
-    color: purple;
-}
-a:hover{
-    color: rgb(217, 255, 0); 
-  }
-  a:hover{
-    color: rgb(255, 0, 157);
-}
-a:hover{
-    color: rgb(255, 94, 0);
-}
-  .nav,ul {
-list-style-type: none;
-background-color: rgb(173, 17, 17);
-margin: 3px;
-padding: 3px;
-overflow: hidden;
-border-radius: 3px;
+ body{
+      width:100%;
+      background: linear-gradient( to top,Black)(50%,Black)(50%),url(sunset.jpg);
+      background : position center;
+      background : size cover;
+      height : 109hv;
+    }
+    nav{
+        text-align:bottom;
+        
+    }
+    li {
+  float: left;
 }
 
 
-.home{
-overflow: hidden;
-text-align: center;
-color: rgb(76, 0, 255);
-background-color: black;
+    ul {
+        list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(121, 14, 14);
 }
+li a:hover:not(.active) {
+  background-color: #111;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.column {
-float: left;
-width: 30%;
-padding: 5px;
+.bg-image {
+  /* The image used */
+  background-image: url("photographer.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-content: "";
-clear: both;
-display: table;
-}
-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #333;
-}
-
-li {
-float: left;
-}
-
-li a {
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
 }
 
-li a:hover:not(.active) {
-background-color: #111;
+h1{
+    text-align: center;  
 }
-
-.active {
-background-color: #04AA6D;
-}
-p {text-align: center;}
-
