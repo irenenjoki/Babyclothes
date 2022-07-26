@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="shortcut icon" href="images\s.jpg" type="image/x-icon">
+
     <title>SLYKISHKIDS</title>
 </head>
 <body>
@@ -16,7 +17,6 @@
      
       .nav,ul {
     list-style-type: none;
-    background-color: white;
     margin: 3px;
     padding: 3px;
     overflow: hidden;
@@ -39,6 +39,7 @@
   box-sizing: border-box;
 }
 
+
 .column {
   float: left;
   width: 15%;
@@ -56,7 +57,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(173, 10, 10);
 }
 
 li {
@@ -65,14 +65,16 @@ li {
 
 li a {
   display: block;
+  color: rgb(15, 14, 14);
   color: white;
+
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: rgb(196, 17, 17);
 }
 
 .active {
@@ -90,6 +92,32 @@ p {text-align: center;}
 h1{
     text-align: center;  
 }
+.footer {
+    padding:3px;
+   background-color: rgb(22, 2, 2);
+   color: rgb(212, 204, 204);
+   text-align: center;
+   
+ }
+ .footer a:hover{
+    background-color: aqua;
+    color: rgb(27, 118, 197);
+  }
+  ::-webkit-scrollbar {
+  width:10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--light-azure);
+  border-radius: 5em;
+}
+::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 5px gray;
+}
+::-webkit-scrollbar-thumb {
+background: blue;
+}
+
 </style>
 
   
@@ -226,7 +254,9 @@ h1{
                       <p>150sh</p>
 
                       </div> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                     
+                    <footer>
+                      <div class="footer">
+                        <div class="hover">
                       <div class="h1"> 
                       <h1>link up with us</h1>
                     </div>
@@ -239,6 +269,9 @@ h1{
     <li><a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a><br><br></li>
     <li><a href="https://www.whatsapp.com/?lang=en"><i class="fab fa-whatsapp"></i></a><br><br></li>
     </ul>
-             
+                        </div>
+                      </div>
+                      
+  </footer>
 </body>
 </html>
