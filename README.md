@@ -1,6 +1,6 @@
 live demo
 
-### Technet 👋
+### Babystore 👋
 
 <a href="https://irenenjoki.github.io/Babyclothes/index.html">Demo</a>
 
